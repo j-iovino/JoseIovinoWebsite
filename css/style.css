@@ -892,8 +892,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-left: 4px solid #fce883;
 }
 
-#print-list .container{
-  width: 50%;
+#print-list{
+    padding: 0 2em 0 3em;
 }
 
 #print-list li{
