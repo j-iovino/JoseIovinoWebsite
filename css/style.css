@@ -778,6 +778,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
 }
 
+#mini-cv header{
+  padding: 20px 0 10px 0;
+}
+
 #mini-cv:before{
   content: '';
   position: absolute;
@@ -867,6 +871,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background:#fffdfa;
   padding: 60px 0 90px 0;
   position: relative;
+}
+#prints header{
+  padding: 20px 0 10px 0;
 }
 
 #prints:before{
