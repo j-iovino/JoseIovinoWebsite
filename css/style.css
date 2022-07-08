@@ -186,20 +186,23 @@ h4 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: #fffff0;
 }
 
 #intro .carousel-item {
   width: 100%;
   height: 100vh;
   background-size: cover;
-  background-position: center;
+  background-position: 19%;
   background-repeat: no-repeat;
 }
 
 #intro .carousel-item::before {
   content: '';
-  background-color: rgba(0, 0, 0, 0.4);
+  background-image: url("proof.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color:black;
+  opacity:0.2;
   position: absolute;
   height: 100%;
   width: 100%;
@@ -239,16 +242,16 @@ h4 {
 }
 
 #intro h2 {
-  color: #fff;
+  color: #3b444b;
   margin-bottom: 30px;
-  font-size: 48px;
+  font-size: 56px;
   font-weight: 700;
 }
 
 #intro p {
   width: 80%;
   margin: 0 auto 30px auto;
-  color: #fff;
+  color: #3b444b;
 }
 
 #intro .carousel-fade {
@@ -321,7 +324,13 @@ h4 {
 --------------------------------------------------------------*/
 
 /* Nav Menu Essentials */
+#header a{
+  color:#3b444b;
+}
 
+#header a:hover{
+  color:#5b92e5;
+}
 .nav-menu,
 .nav-menu * {
   margin: 0;
@@ -333,10 +342,12 @@ h4 {
   display: none;
   top: 100%;
   z-index: 99;
+    
 }
 
 .nav-menu li {
   position: relative;
+  white-space: nowrap;
   white-space: nowrap;
 }
 
@@ -357,6 +368,8 @@ h4 {
 .nav-menu ul li {
   min-width: 180px;
 }
+
+
 
 /* Nav Menu Arrows */
 
@@ -402,7 +415,7 @@ justify-content: center;
   color: #f8f8ff;
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   font-weight:600;
-  font-size: 13px;
+  font-size: 15px;
   text-transform: uppercase;
   outline: none;
 }
@@ -466,7 +479,7 @@ justify-content: center;
 }
 
 #mobile-nav-toggle i {
-  color: #fff;
+  color: #5b92e5;
 }
 
 /* Mobile Nav Styling */
@@ -928,66 +941,14 @@ i h3 {
   width:33%;
 }
 
-#contact .form{
-  float:right;
-  margin-top:-24em;
-  margin-right:10%;
+#contact table{
+    text-align: center;
+    vertical-align: center;
+    margin:60px 30px;
 }
 
-
-#contact .form #sendmessage {
-  color: #5b92e5;
-  border: 1px solid #5b92e5;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #5b92e5;
-  border: 0;
-  padding: 10px 30px;
-  color: #fff;
-  transition: 0.4s;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #13a456;
+#contact td{
+   width:35%;
 }
 
 /*--------------------------------------------------------------
@@ -999,6 +960,7 @@ i h3 {
   background-color:#1b1b1b;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 70% 50%;
   padding: 30px 0 30px 0;
   font-size: 14px;
 }
@@ -1079,7 +1041,8 @@ i h3 {
   }
 
   #intro h2 {
-    font-size: 28px;
+    font-size: 35px;
+    font-weight:800;
   }
 
   #nav-menu-container {
