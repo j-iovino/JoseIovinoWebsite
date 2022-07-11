@@ -786,8 +786,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 20px;
   top: 45px;
   right: 45px;
-  border-top: 4px solid #ff9f00;
-  border-right: 4px solid #ff9f00;
+  border-top: 4px solid #fada5e;
+  border-right: 4px solid #fada5e;
 }
 
 #mini-cv:after{
@@ -891,8 +891,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   height: 20px;
   bottom: 45px;
   left: 45px;
-  border-bottom: 4px solid #fce883;
-  border-left: 4px solid #fce883;
+  border-bottom: 4px solid #fada5e;
+  border-left: 4px solid #fada5e;
 }
 
 #print-list{
@@ -922,7 +922,59 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
+/* Teaching Section
+--------------------------------*/
 
+#teaching{
+  background: #f5f5f5;
+  padding: 60px 0 90px 0;
+  position: relative;
+}
+
+#teaching header{
+  padding: 20px 0 30px 0;
+}
+
+#teaching:before{
+  content: '';
+  position: absolute;
+  display:block;
+  width: 25px;
+  height: 20px;
+  top: 45px;
+  right: 45px;
+  border-top: 4px solid #03c03c;
+  border-right: 4px solid #03c03c;
+}
+
+#teaching:after{
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  bottom: 45px;
+  left: 45px;
+  border-bottom: 4px solid #ff5349;
+  border-left: 4px solid #ff5349;
+}
+
+#teaching .container{
+  width:80%;
+}
+
+#teaching p{
+    font-size:13pt;
+}
+
+#teaching a{
+  color: #2C73DE;
+}
+  
+#teaching a:hover{
+  font-size:13pt;
+  color:#00a550;
+  font-weight:600;
+}
 
 /* Contact Section
 --------------------------------*/
@@ -956,8 +1008,10 @@ i h3 {
   color: #000;
 }
 
-#contact  a:hover {
-  color: #5b92e5;
+#contact  a:hover{
+  font-size:13pt;
+  color:#00a550;
+  font-weight:600;
 }
 
 #contact .contact-address{;
