@@ -881,8 +881,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 38vw; 
     max-width:360px;
+    width: 38vw; 
 }
 
 #personal #recentPhoto{
@@ -890,8 +890,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: block; 
     margin-left: auto; 
     margin-right: auto; 
-    width: 61vw; 
     max-width:560px;
+    width: 61vw; 
+    
 }
 
 /* Prints Section
