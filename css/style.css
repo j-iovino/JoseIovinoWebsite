@@ -853,6 +853,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 4px solid #03c03c;
   border-left: 4px solid #03c03c;
 }
+
+#personal .container {
+    width:60vw;
+}
 #personal p{
   font-size:12pt;
 }
@@ -863,13 +867,32 @@ body.mobile-nav-active #mobile-nav-toggle {
 #personal #poem{
   text-align:center;
   margin-left:100px;
-  margin-right:100px
+  margin-right:100px;
+  padding:30px 0 0 0;
+  font-weight: 600;
+  font-size:10pt;
   line-height:1.5;
   color: #1b1b1b;
-  font-family: "Calisto MT", "Bookman Old Style", Bookman, "Goudy Old Style", Garamond, "Hoefler Text", "Bitstream Charter", Georgia, serif
+  font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 }
 
+#personal #oldPhoto{
+    padding:30px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 38vw; 
+    max-width:360px;
+}
 
+#personal #recentPhoto{
+    padding:30px;
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 61vw; 
+    max-width:560px;
+}
 
 /* Prints Section
 --------------------------------*/
