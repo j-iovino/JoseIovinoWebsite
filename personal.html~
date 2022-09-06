@@ -40,8 +40,7 @@
           <h3>Personal</h3>
         </header>
         <p>The greatest blessings of my life are my beloved wife Martha and our children <a href="img/abi.jpg">Abigail</a> and <a href="img/luca.jpg">Luca</a>.</p>
-        <p>I have dedicated a large part of my life to the study, teaching, and performance of fretted instruments. I perform on a ten-string guitar built for me by the distinguished American luthier
-	  <a href="https://www.rebrune.com">R. E. Bruné</a> (Evanston, IL, 1990, Opus 515). This instrument is particularly appropriate for the performance of the works for lute (or rather, Lauteninstrumente) of J. S. Bach (1685-1750) and S. L. Weiss (1686-1750), and it was commissioned to Mr. Bruné with this goal in mind.</p>
+        <p>I have dedicated a large part of my life to the study, teaching, and performance of fretted instruments. I perform on a ten-string guitar built for me by the distinguished American luthier R. E. Bruné (Evanston, IL, 1990, Opus 515). This instrument is particularly appropriate for the performance of the works for lute (or rather Lauteninstrumente) of J. S. Bach (1685-1750) and S. L. Weiss (1686-1750), and it was commissioned to Mr. Bruné with this goal in mind.</p>
         </div>
         <img src="img/martha.jpg" alt="Martha and Jose 1997" class="center" id="oldPhoto">
         <img src="img/mamaypapa.jpg" alt="Martha and Jose 2021" class="center" id="recentPhoto">
