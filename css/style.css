@@ -685,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media only screen and (max-width: 410px) {
   #about-info{
     width:80vw;
-    height: 87vh;
+    height: 88vh;
     padding-left:-1em;
     padding-right:1.5em;
     margin-left: 2em;
