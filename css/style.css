@@ -671,6 +671,48 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-right:1.5em;
     margin-left: 2em;
 }
+
+@media only screen and (max-width: 900px) {
+  #about-info{
+    width:80vw;
+    height: 70vh;
+    padding-left:-1em;
+    padding-right:1.5em;
+    margin-left: 2em;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+  #about-info{
+    width:80vw;
+    height: 87vh;
+    padding-left:-1em;
+    padding-right:1.5em;
+    margin-left: 2em;
+    }
+    
+}
+
+@media only screen and (max-width: 370px) {
+  #about p{
+   width:50%;
+   text-align:left;
+   margin-left:2.5em;
+   font-size:10pt;
+   height:300px;
+   vertical-align:middle;
+    }
+    
+#about-info{
+    width:80vw;
+    height: 70vh;
+    padding-left:-1em;
+    padding-right:1.5em;
+    margin-left: 2em;
+    }
+}
+
+
 #profile {
     width:37vw;
     max-width:360px;
